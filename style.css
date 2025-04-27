@@ -1,0 +1,917 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+
+.sub-header {
+    background-color: #281160;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    font-size: 15px;
+}
+.tombold {
+    font-weight: 800;
+}
+.head-logo {
+    display: flex;
+    flex-direction: row;
+}
+.head-logo .first-class{
+    display: flex;
+    gap: 13px;
+    list-style: none;
+   
+}
+.first-class li {
+    margin-top: 10px;
+  
+}
+.first-input {
+    padding: 17px;
+    width: 670px;
+    border-radius: 30px;
+    border: 1px solid;
+
+}
+button {
+    border-radius: 5px;
+    border: 1px solid #6d28d2;
+    width: 45px;
+    padding: 5px;
+}
+.sign {
+    width: 80px;
+}
+.register {
+    width: 100px;
+    background-color: #6d28d2;
+    color: #fff;
+}
+.fa-magnifying-glass {
+    display: flex;
+    position: relative;
+    left: 45px;
+    top: 20px;
+}
+.section-one {
+    border-bottom: 1px solid rgb(199, 199, 199);
+     box-shadow: 6px 100px 30px 0.5;
+}
+
+
+
+/*second section*/
+.t {
+    height: 450px;
+}
+.theme-image {
+    justify-self: center;
+}
+
+.photo {
+    display: flex;
+    position: relative;
+    bottom: 40px;
+   
+}
+.theme-article {
+    display: flex;
+    position: relative;
+    border: 1px light;
+    width: 25%;
+    padding: 30px;
+    left: 170px;
+    bottom: 450px;
+    background-color: #fff;
+}
+.theme-article header {
+    font-size: 30px;
+    font-weight: 700;
+}
+.fa-angle-left {
+    display: flex;
+    position: relative;
+    left: 20px;
+    bottom: 295px;
+    border: 1px ;
+    width: 15px;
+    padding: 12px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+.fa-angle-right {
+   display: flex;
+   position: relative;
+   border: 1px;
+   width: 15px;
+   left: 96%;
+   bottom: 265px;
+   padding: 12px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+/*.....*/
+
+.skills-development h1 {
+    font-size: 35px;
+    font-weight: 550;
+}
+.skills-development a {
+    color: black;
+    text-decoration: none;
+
+}
+.skills ul {
+     display: flex;
+     flex-direction: row;
+     list-style: none;
+     gap: 20px;
+     position: relative;
+     right: 35px;
+     padding-top: 30px;
+}
+.skills ul a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+}
+.skill-class {
+    border-bottom: 1px solid #d1d2e0;
+    margin-left: 120px;
+    width: 80%;
+}
+
+/*...........*/
+.section-three {
+    width: 100%;
+    background-color: #f6f7f9;
+}
+.participants {
+    
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 78%;
+    gap: 15px;
+}
+.participants article {
+    width: 100%;
+   margin-top: 50px;
+   margin-left: 100px;
+   line-height: 5px;
+}
+.plus {
+    border: 1px solid;
+    display: inline;
+    border-radius: 30px;
+    justify-items: center;
+    background-color: #e9eaf2;
+}
+.plus:first-child {
+    background-color: #16161d;
+    color: #fff;
+}
+.second-right {
+    display: flex;
+    position: relative;
+    top: 190px;
+    left: 1230px;
+}
+.fa-star {
+  
+   color: #c4710d;
+}
+.fa-star-half-stroke {
+    color: #c4710d;
+}
+.color-star {
+    color: #c4710d;
+}
+.chatgpt {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 100px;
+    margin-right: 85px;
+    gap: 15px;
+
+}
+.chatgpt p{
+    font-weight: bold;
+}
+.chatgpt img {
+    width: 320px;
+    border-radius: 10px;
+}
+.participant-watch {
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 10px;
+    line-height: 17px;
+}
+.participant-watch p,h3,.butts{
+    margin-left: 20px;
+}
+.participant-watch button{
+    width: 90px;
+    background-color: #97d7e3;
+    border: 1px none;
+
+
+
+
+
+
+}
+.participant-watch .butt{
+    width: 90px;
+    margin-left: 20px;
+    background-color: #eceb98;
+    color: #c4710d;
+    border: 1px none;
+
+}
+.participant-watch .butts {
+    
+}
+.parti-button {
+    color: #6d28d2;
+    width: 250px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: #fff;
+    margin-left: 100px;
+}
+.participant-watch .light {
+    font-size: 16px;
+    font-weight: 100;
+}
+.fa-chevron-right{
+    display: flex;
+   position: relative;
+   border: 1px;
+   width: 15px;
+   left: 93%;
+   bottom: 225px;
+   padding: 12px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+b {
+    color: black;
+    font-weight: 100;
+}
+
+/*icon photos*/
+.icon-pictures p{
+       text-align: center;
+       width: 100%;
+       font-size: 20px;
+}
+.icon-photos {
+    display: flex;
+    gap: 80px;
+    justify-self: center;
+}
+.padd {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+/*watch*/
+
+.introduction-watch p{
+    display: flex;
+    position: relative;
+    width: 88%;
+    margin-left: 100px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.participation-watch {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 100px;
+    margin-right: 85px;
+    gap: 15px;
+
+}
+.watch p{
+    font-weight: bold;
+}
+.watch img {
+    width: 320px;
+    border-radius: 10px;
+}
+.watch p,h3,.butts{
+    margin-left: 20px;
+}
+.watch button{
+    width: 90px;
+    background-color: rgb(129, 159, 129);
+
+
+
+
+
+
+}
+.watch .butt{
+    width: 90px;
+    margin-left: 20px;
+    background-color: #97d7e3;
+    color: #c4710d;
+    border: 1px none;
+
+
+
+
+
+
+}
+.watch .butts {
+    background-color: #97d7e3;
+    border: 1px none;
+}
+.watch .butte {
+    width: 40px;
+    margin-left: 20px;
+    background-color: #8cd3b0;
+    border: 1px none;
+}
+.watch .light {
+    font-size: 16px;
+    font-weight: 100;
+}
+b {
+    color: black;
+    font-weight: 100;
+}
+.watch {
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 10px;
+    line-height: 17px;
+}
+
+/*goal oriantation*/
+.first-orientation {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-color: #f6f7f9;
+}
+
+.first-orien {
+    width: 88%;
+    margin-left: 100px;
+}
+.goal-orientation {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    text-align: center;
+}
+.goal {
+    border: 1px;
+    width: 70%;
+}
+.goal ul {
+    
+}
+.goal nav {
+    display: flex;
+    border: 1px solid rgb(211, 211, 211);
+    margin: 20px;
+    border-radius: 10px;
+    background-color: aliceblue ;
+}
+.goal nav:last-child {
+    border: 1px solid #6d28d2;
+    border-left: 10px solid #6d28d2;
+}
+.goal nav li {
+    list-style: none;
+    text-align: left;
+}
+nav .u {
+    font-size: 20px;
+    font-weight: 600;
+}
+.goal nav:hover {
+    background-color: #b7b9cd;
+}
+nav h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.goal nav ul button {
+    width: 180px;
+    padding: 1px;
+    color: #6d28d2;
+}
+.goal ul img {
+    width: 70px;
+}
+nav ul img {
+    border: 1px;
+    margin-top: 20px;
+}
+.goal-orien img {
+    width: 78%;
+}
+.fa-arrow-right {
+    color: #6d28d2;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+.fa-arrow-right-long {
+    color: #6d28d2;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+header {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+/*acceleration */
+.togo {
+    padding-bottom: 50px;
+}
+.free-trial {
+    width: 88%;
+    margin-left: 140px;
+}
+.free-trial h1{
+    font-size: 40px;
+}
+.free-trial p {
+    font-size: 20px;
+}
+.free-ticket {
+    border: 1px solid;
+    width: 30%;
+    padding-bottom: 100px;
+    border-radius: 10px;
+    border-top: 10px solid #6d28d2;
+}
+.free-ticket .nav-one {
+
+    background-color: #f6f7f9;
+    list-style: none;
+}
+.nav-two button {
+    width: 93%;
+    padding: 15px;
+    background-color: #6d28d2;
+    color: #fff;
+    font-weight: 800;
+}
+.nav-two {
+    line-height: 0;
+}
+
+.nav-three li{
+    list-style: none;
+    line-height: 25px;
+}
+.nav-three li::before {
+    content: "\2713\FE0E";
+    font-size: 1em;
+    margin-right:0.5em;
+   
+}
+.nav-one h1 {
+    font-size: large;
+    font-weight: bold;
+}
+.acceleration {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    width: 90%;
+    margin-left: 80px;
+}
+.third-nav3 {
+    line-height: 15px;
+}
+
+
+
+
+.access-one {
+    border-top: 10px solid #892de1;
+}
+
+
+/*game changers*/
+.goal-markers {
+    padding: 50px;
+    background-color: #f6f7f9;
+}
+.super-winners {
+     width: 85%;
+     margin-left: 125px;
+}
+.super-winners h1{
+    font-size: 35px;
+}
+.most-popular {
+    border: 1px solid #b7b9cd;
+    width: 30%;
+    border-radius: 10px;
+}
+.most-popular p img {
+    width: 150px;
+}
+.most-popular .true-image {
+    width: 20px;
+}
+.most-popular a{
+    text-decoration: none;
+    color: #6d28d2;
+}
+.most-popular .bold {
+    font-weight: 800;
+}
+.most-popular ul span {
+    line-height: 15px;
+    color: #b7b9cd;
+    display: flex;
+    margin-right: 30px;
+}
+.game-changers {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    justify-content: center;
+    margin-left: 120px;
+    gap: 13px;
+} 
+.learning-pays ul img {
+    width: 50px;
+    border-radius: 40px;
+}
+.learning-pays ul p span{
+  display: flex;
+  position: relative;
+  left: 80px;
+  bottom: 50px;
+    font-size: 13px;
+}
+.learning ul p span {
+    display: flex;
+    position: relative;
+    left: 70px;
+    bottom: 50px;
+    font-size: 13px;
+}
+.learning ul img {
+    width: 50px;
+    border-radius: 40px;
+}
+
+/*top trends */
+
+.global-learning {
+       display: flex;
+       flex-direction: row;
+       justify-self: center;
+       width: 80%;
+       
+}
+.top-trends {
+    width: 40%;
+}
+.top-trends h1 {
+    font-size: 35px;
+}
+.top-trends p {
+    font-size: 20px;
+}
+.top-trends button {
+    width: 50%;
+    padding: 12px;
+    color: #6d28d2;
+    font-weight: 700;
+    background-color: #fff;
+}
+.top-trends ul {
+    margin-top: 100px;
+}
+.future-works img{
+      width: 100%;
+}
+
+
+/*current skills*/
+.chatGPT-topics {
+    display: flex;
+    flex-direction: row;
+  margin-left: 125px;
+    gap: 30px;
+    border-top: 1px solid #dedede;
+    width: 80%;
+}
+.offers {
+    background-color: #f6f7f9;
+}
+.top-offers {
+    margin-left: 125px;
+    font-size: 25px;
+}
+.popular-skills {
+    width: 20%;
+
+}
+.popular-skills h2{
+    font-size: 30px;
+    justify-self: left;
+}
+.popular-skills h4 {
+    color: #6d28d2;
+    font-size: 20px;
+    line-height: 35px;
+}
+.popular-skills button {
+    width: 100%;
+    padding: 10px;
+    color: #6d28d2;
+    font-size: 900;
+    font-size: 15px;
+    background-color: #fff;
+}
+.dev-skill h4 {
+    color: #6d28d2;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 2px;
+}
+.dev-skill {
+    text-align: start;
+}
+
+
+/*skill enhancement*/
+.enhance {
+}
+
+.skill-enhancement {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin-left: 120px;
+    padding-top: 70px;
+}
+.lectures img{
+     width: 100%;
+     height: 600px;
+}
+.lectures {
+    width: 50%;
+}
+.enhancement {
+    width: 50%;
+}
+.enhancement h2 {
+    font-size: 30px;
+    font-weight: 100;
+}
+.enhancement h1 {
+    font-size: 35px;
+}
+.percentage-on-role {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 60px;
+    gap: 20px;
+}
+.percentage-on-role ul:first-child {
+    border-bottom: 1px solid #d1d2e0;
+}
+.percentage-on-role ul:last-child {
+    border-bottom: 1px solid #d1d2e0;
+}
+.enhancement button {
+    width: 35%;
+    padding: 10px;
+    color: #fff;
+    background-color: #6d28d2;
+    font-weight: 800;
+}
+.arrow .fa-angle-right {
+    display: flex;
+    position: relative;
+    border: 1px;
+    width: 15px;
+    left: 70px;
+    top:20px ;
+    padding: 13px;
+    border-radius: 31px;
+    background-color: aliceblue;
+}
+
+
+.arrow .first-child {
+    background-color: #6d28d2;
+    width: 20px;
+}
+.arrow .x {
+    width: 1px;
+    padding: 4px;
+}
+.arrow {
+    position: relative;
+     left: 100px;
+     width: 50%;
+    
+}
+
+/*first footer */
+.footer-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.footer1 {
+    width: 100%;
+    border: 3px solid #fff;
+}
+.footer-section .nav-nav p {
+   font-size: 20px;
+}
+.t-nav ul {
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+.nav-nav ul a {
+    color: #677390;
+    text-decoration: none;
+}
+
+/*ftwo-two*/
+
+.sub-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.sub-footer ul li {
+    list-style: none;
+}
+.udemy {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 120px;
+}
+.udemy ul li {
+    list-style: none;
+}
+.sub-last-footer {
+    background-color: #16161d;
+    color: #fff;
+}
+
+/*finally*/
+.finally {
+    background-color: black;
+    border-bottom: 2px solid white;
+}
+.sub-last {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 200px;
+    color: #fff;
+}
+.sub-last ul li {
+    list-style: none;
+}
+
+
+/*finish*/
+
+.the-end {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 540px;
+}
+.finish {
+   background-color: #202230; 
+   color: #fff;
+}
+.the-end ul li {
+    list-style: none;
+}
+.the-end ul img {
+    color: #fff;
+}
+.fa-globe {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+@media  (max-width:1440px) {
+    .participants{
+        overflow: visible;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+    .skills ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .chatgpt {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sub-header{
+        width: 100%;
+        overflow: auto;
+
+    }
+    .icon-photos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .participation-watch {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .parti-button {
+        justify-content: center;
+    }
+    .goal-orientation {
+        display: flex;
+        flex-direction: column;
+    }
+    .acceleration {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .game-changers {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .global-learning {
+        display: flex;
+        flex-direction: row;
+    }
+    .chatGPT-topics {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .enhancement {
+        display: flex;
+        flex-direction: column;
+    }
+    .percentage-on-role {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media  (min-width:600px) {
+    .skills {
+        width: 100%;
+    }
+    .sub-header{
+        
+    }
+    .lectures img{
+        width: 50px;
+    }
+}
